@@ -6,30 +6,33 @@
                 </button>
                 <div class="collapse navbar-collapse" id="top-navbar">
 
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.php">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="listfruits.php">Liste des Fruits</a>
-                        </li>
-                        
-                            <li class="nav-item">
-                                <a class="nav-link" href="logout.php">Déconnexion</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="profil.php">Mon Profil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="addfruit.php">Ajouter un Fruit</a>
-                            </li>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.php">Accueil</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="listfruits.php">Liste des Fruits</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.php">Inscription</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.php">Connexion</a>
+                    </li>
+
+                    </ul>
 
                     <!-- Formulaire de recherche en haut à droite -->
                     <form class="d-flex" method="GET" action="search.php">
+
                         <input name="q" class="form-control me-2" type="search" placeholder="Chercher un fruit" aria-label="Search">
+
                         <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                        
                     </form>
                 </div>
             </div>
