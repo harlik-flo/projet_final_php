@@ -1,3 +1,9 @@
+<?php
+session_start();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -12,9 +18,17 @@
 <body>
 <?php
 
+if( empty( $_SESSION["user"] ) ){
+
 include "include/menu.php";
 
+} else {
+
+include "include/menu_user.php";
+
+}
 ?>
+
     <div class="container-fluid">
 
         <div class="row">
